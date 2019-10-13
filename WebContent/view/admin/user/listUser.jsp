@@ -34,10 +34,10 @@
     <link href="/Shop/static/admin/css/themify-icons.css" rel="stylesheet">
     <style>
 	#product-thumbnail {
-		max-width: 200px;
-		max-height: 200px;
-		min-width: 200px;
-		min-height: 200px;
+		max-width: 150px;
+		max-height: 150px;
+		min-width: 150px;
+		min-height: 150px;
 	}
 </style>
 </head>

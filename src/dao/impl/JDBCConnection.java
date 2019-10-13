@@ -9,7 +9,7 @@ public class JDBCConnection {
 	public Connection getConnect() {
 		String username = "root";
 		String password = "trongdungk53";
-		String url = "jdbc:mysql://localhost:3306/admin";
+		String url = "jdbc:mysql://localhost:3306/camera_shop?useSSL=false&allowPublicKeyRetrieval=true&useUnicode=yes&characterEncoding=UTF-8";
 	
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");

@@ -23,8 +23,6 @@
 		</div>
 		<nav class="navbar navbar-expand-lg  navbar-light">
 			<div class="container">
-				<a class="navbar-brand" href="#"> <img src="/Shop/static/client/img/logo.png" alt="">
-				</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse"
 					data-target="#navbarSupportedContent"
 					aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -41,9 +39,11 @@
 						<li class="dropdown"><a class="dropdown-toggle" href="#"
 							id="navbardrop" data-toggle="dropdown"> Categories </a>
 							<div class="dropdown-menu">
-								<a class="dropdown-item" href="/Shop/client/view/product/category?cate_id=12">Men</a> <a
-									class="dropdown-item" href="/Shop/client/view/product/category?cate_id=13">Women</a> <a
-									class="dropdown-item" href="/Shop/client/view/product/category?cate_id=14">Couple</a>
+								<a class="dropdown-item" href="/Shop/client/view/product/category?cate_id=12">May anh chuyen nghiep</a>					        
+								        <a class="dropdown-item" href="/Shop/client/view/product/category?cate_id=13">May anh du lich</a>								  								       
+								        <a class="dropdown-item" href="/Shop/client/view/product/category?cate_id=14">May anh sieu zoom</a>
+								        <a class="dropdown-item" href="/Shop/client/view/product/category?cate_id=16">May anh mirrorless</a>
+								        <a class="dropdown-item" href="/Shop/client/view/product/category?cate_id=17">May anh chup lay ngay</a>
 							</div></li>
 						<li><a href="/Shop/client/order/list">Cart</a></li>
 						<li><a href="/Shop/client/checkout">Check Out</a></li>

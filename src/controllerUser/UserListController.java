@@ -26,28 +26,6 @@ public class UserListController extends HttpServlet {
 		/// day doi tuong list user sang view
 		req.setAttribute("userList", users);
 
-		// doc cookie tu client gui len
-//		Cookie[] cookies = req.getCookies();
-//		boolean check = false;
-//		// kiem tra cho an chac neu ko co cookies
-//		if (cookies != null) {
-//			for (Cookie cookie : cookies) {
-//				System.out.println(cookie.getName());
-//				System.out.println(cookie.getValue());
-//				// neu ton tai cookie name la username
-//				// thi dong nghia van dang login
-//				if (cookie.getName().equals("username")) {
-//					System.out.println("Van dang login");
-//					check = true;
-//				}
-//			}
-//		}
-//
-//		if (!check) {//phu dinh
-//			// da het thoi gian, bi logout
-//			resp.sendRedirect(req.getContextPath() + "/login");
-//			return;
-//		}
 
 		RequestDispatcher dispatcher = req.getRequestDispatcher("/view/admin/user/listUser.jsp");
 		dispatcher.forward(req, resp);

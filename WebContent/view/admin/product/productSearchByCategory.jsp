@@ -41,10 +41,10 @@
 <link href="/Shop/static/admin/css/themify-icons.css" rel="stylesheet">
 <style>
 	#product-thumbnail {
-		max-width: 300px;
-		max-height: 300px;
-		min-width: 300px;
-		min-height: 300px;
+		max-width: 150px;
+		max-height: 150px;
+		min-width: 150px;
+		min-height: 150px;
 	}
 </style>
 </head>
@@ -77,9 +77,11 @@
 													class="btn btn-default dropdown-toggle"
 													data-toggle="dropdown">Category</button>
 												<ul class="dropdown-menu" role="menu">
-													<li><a href="/Shop/product/category?cate_id=12">Men</a></li>
-													<li><a href="/Shop/product/category?cate_id=13">Women</a></li>
-													<li><a href="/Shop/product/category?cate_id=14">Couple</a></li>
+													<li><a class="dropdown-item" href="/Shop/product/category?cate_id=12">May anh chuyen nghiep</a></li>
+													<li><a class="dropdown-item" href="/Shop/product/category?cate_id=13">May anh du lich</a></li>
+													<li><a class="dropdown-item" href="/Shop/product/category?cate_id=14">May anh sieu zoom</a></li>
+													<li><a class="dropdown-item" href="/Shop/product/category?cate_id=16">May anh mirrorless</a></li>
+													<li><a class="dropdown-item" href="/Shop/product/category?cate_id=17">May anh chup lay ngay</a></li>
 												</ul>
 											</div>
 										</li>
