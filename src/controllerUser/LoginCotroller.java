@@ -46,7 +46,7 @@ PersonService personService = new PersonServiceImpl();
 				resp.sendRedirect(req.getContextPath() + "/admin");
 				return;
 			}else {
-				resp.sendRedirect(req.getContextPath() + "/client");
+				resp.sendRedirect(req.getContextPath() + "/view/product-list");
 				return;
 			}		
 		} else {

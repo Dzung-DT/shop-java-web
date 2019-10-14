@@ -38,10 +38,10 @@
 <link rel="stylesheet" href="/Shop/static/client/css/main.css">
 <style>
 	#product-thumbnail {
-		max-width: 300px;
-		max-height: 300px;
-		min-width: 300px;
-		min-height: 300px;
+		max-width: 200px;
+		max-height: 200px;
+		min-width: 200px;
+		min-height: 200px;
 	}
 </style>
 </head>
@@ -127,16 +127,16 @@
 							<div class="content-overlay"></div>
 							<c:url value="/imageProduct?fileName=${p.productFileName }"
 								var="imgUrl"></c:url>
-							<a href="/Shop/client/view/product-detail?id=${p.id}"><img
+							<a href="/Shop/view/product-detail?id=${p.id}"><img
 								class="img-responsive sm-margin-bottom-20" src="${imgUrl}" id="product-thumbnail" class="rounded img-thumbnail"></a>					
 							<div class="content-details fadeIn-bottom">
 								<div class="bottom d-flex align-items-center justify-content-center">	
-									<a href="/Shop/client/view/product-detail?id=${p.id}"><span class="lnr lnr-cart"></span></a> 				
+									<a href="/Shop/view/product-detail?id=${p.id}"><span class="lnr lnr-cart"></span></a> 				
 								</div>
 							</div>
 						</div>
 						<div class="price">
-							<h4><a href="/Shop/client/view/product-detail?id=${p.id}">${p.name }</a></h4>
+							<h4><a href="/Shop/view/product-detail?id=${p.id}">${p.name }</a></h4>
 							<h5>${p.price } $</h5>
 						</div>
 					</div>

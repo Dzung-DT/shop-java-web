@@ -9,7 +9,7 @@ public class JDBCConnection {
 	public Connection getConnect() {
 		String username = "root";
 		String password = "trongdungk53";
-		String url = "jdbc:mysql://localhost:3306/camera_shop?useSSL=false&allowPublicKeyRetrieval=true&useUnicode=yes&characterEncoding=UTF-8";
+		String url = "jdbc:mysql://localhost:3306/camera_shop";
 	
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
@@ -22,17 +22,5 @@ public class JDBCConnection {
 		}
 		
 		return null;
-	}
-	
-	public static void main(String[] args) {
-		///TEst connection 
-		JDBCConnection connection = new JDBCConnection();
-		Connection conn = connection.getConnect();
-		
-		if (conn != null) {
-			System.out.println("THANH CONG");
-		} else {
-			System.out.println("THAT BAI");
-		}
 	}
 }

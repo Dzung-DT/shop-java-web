@@ -13,7 +13,7 @@ import model.Product;
 import service.ProductService;
 import service.impl.ProductServiceImpl;
 
-@WebServlet(urlPatterns="/client/view/product/category")
+@WebServlet(urlPatterns="/view/product/category")
 public class ProductSearchByCategoryClientController extends HttpServlet{
 	ProductService productService=new ProductServiceImpl();
 	@Override

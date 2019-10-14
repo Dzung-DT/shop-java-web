@@ -18,7 +18,7 @@ import service.impl.CategoryServiceImpl;
 import service.impl.ProductServiceImpl;
 
 
-@WebServlet(urlPatterns="/client/view/product-detail")
+@WebServlet(urlPatterns="/view/product-detail")
 public class ProductDetailController extends HttpServlet{
 	ProductService productService = new ProductServiceImpl();
 	CategoryService categoryService = new CategoryServiceImpl();

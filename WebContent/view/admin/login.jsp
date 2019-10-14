@@ -18,7 +18,7 @@
 <link rel="stylesheet" type="text/css" href="/Shop/static/admin/css/styleLogin.css">
 </head>
 <body>
-	<div class="login-wrap">
+	<div class="login-wrap" style="background: none">
 	<div class="login-html">
 		<input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">LOG IN</label>
 		<input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab"></label>
@@ -33,10 +33,7 @@
 					<label for="pass" class="label">Password</label>
 					<input id="pass" type="password" class="input" data-type="password" name="password">
 				</div>
-				<div class="group">
-					<input id="check" type="checkbox" class="check" checked>
-					<label for="check"><span class="icon"></span> Keep me Signed in</label>
-				</div>
+		
 				<div class="group">
 					<input type="submit" class="button" value="Sign In">
 				</div>

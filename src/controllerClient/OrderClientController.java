@@ -47,6 +47,6 @@ public class OrderClientController extends HttpServlet{
 				cartItemService.insert(cartItem);
 			}
 		}
-		resp.sendRedirect(req.getContextPath() + "/client");
+		resp.sendRedirect(req.getContextPath() + "/view/product-list");
 	}
 }
